@@ -1,0 +1,126 @@
+/* The font imported from google font attribute 
+font-family: 'Dancing Script', cursive;
+font-family: 'Montserrat', sans-serif;*/
+
+
+/* Main */
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ccc;
+}
+
+
+/* Wrapper */
+
+.wrapper {
+    width: 600px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #222;
+}
+
+
+/* Main image of searcher  --> header image */
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    height: 300px;
+    padding: 20px 40px;
+    font-family: 'Dancing Script', cursive;
+    background-image: url('../images/main-image.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+
+/* Shadow */
+
+.shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000055;
+    z-index: -1;
+}
+
+
+/* Search Title */
+
+.search-title {
+    margin-bottom: 30px;
+    color: #eee;
+    font-size: 40px;
+}
+
+
+/* Search */
+
+.search {
+    padding: 10px 20px;
+    margin-bottom: 40px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #aaa;
+    color: #7e0373;
+    font-size: 18px;
+    outline-style: none;
+}
+
+
+/* Drink list */
+
+
+/* Main */
+
+.drink-list {
+    padding: 10px 40px;
+}
+
+
+/* Title */
+
+.drink-title {
+    padding: 15px 0;
+}
+
+
+/* Drink list ul */
+
+.main-list {
+    padding-bottom: 20px;
+    font-size: 18px;
+    list-style: none;
+}
+
+
+/* Items of list */
+
+.main-list__item {
+    padding: 5px 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+.main-list__item:last-child {
+    padding: 5px 30px;
+    border-bottom: none;
+}
